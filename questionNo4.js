@@ -1,6 +1,6 @@
 
 function getObjectProporties(obj) {
-    return Object.getOwnPropertyNames(obj).filter( (prop)=> {
+    return Object.getOwnPropertyNames(obj).filter((prop) => {
         return typeof obj[prop] === 'function' //returns only functions of an object
     });
 }
