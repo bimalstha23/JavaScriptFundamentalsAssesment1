@@ -6,8 +6,8 @@ function splitVowelsorconsonant(string) {
         if (defulaVowels.includes(string[i])) vowels.push(string[i]);//INCLUDE FUNCTION RETURNS TRUE IF IT FINDS THE LETTER IN DEFAULTVOWELS
         else consonant.push(string[i]);
     }
-    console.log(vowels);
-    console.log(consonant);
+    console.log(vowels.sort());
+    console.log(consonant.sort());
 
 }
 const string = "hello infodevelopers";

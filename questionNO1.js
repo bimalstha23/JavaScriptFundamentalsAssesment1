@@ -6,5 +6,7 @@ let student = {
     rollno: 15,
 }
 console.log(student);
+delete student.rollno;
 const lengthofObject = Object.keys(student).length;
+console.log(lengthofObject);
 
